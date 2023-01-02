@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat&family=Mulish:wght@800&family=Open+Sans:ital,wght@0,500;1,300&display=swap');
+
+body{
+    min-height:100vh;
+    margin:0;
+    padding:0;
+    background-color: #bbd9ef;
+    background-image: url("data:image/svg+xml,%3Csvg width='120' height='120' viewBox='0 0 120 120' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M9 0h2v20H9V0zm25.134.84l1.732 1-10 17.32-1.732-1 10-17.32zm-20 20l1.732 1-10 17.32-1.732-1 10-17.32zM58.16 4.134l1 1.732-17.32 10-1-1.732 17.32-10zm-40 40l1 1.732-17.32 10-1-1.732 17.32-10zM80 9v2H60V9h20zM20 69v2H0v-2h20zm79.32-55l-1 1.732-17.32-10L82 4l17.32 10zm-80 80l-1 1.732-17.32-10L2 84l17.32 10zm96.546-75.84l-1.732 1-10-17.32 1.732-1 10 17.32zm-100 100l-1.732 1-10-17.32 1.732-1 10 17.32zM38.16 24.134l1 1.732-17.32 10-1-1.732 17.32-10zM60 29v2H40v-2h20zm19.32 5l-1 1.732-17.32-10L62 24l17.32 10zm16.546 4.16l-1.732 1-10-17.32 1.732-1 10 17.32zM111 40h-2V20h2v20zm3.134.84l1.732 1-10 17.32-1.732-1 10-17.32zM40 49v2H20v-2h20zm19.32 5l-1 1.732-17.32-10L42 44l17.32 10zm16.546 4.16l-1.732 1-10-17.32 1.732-1 10 17.32zM91 60h-2V40h2v20zm3.134.84l1.732 1-10 17.32-1.732-1 10-17.32zm24.026 3.294l1 1.732-17.32 10-1-1.732 17.32-10zM39.32 74l-1 1.732-17.32-10L22 64l17.32 10zm16.546 4.16l-1.732 1-10-17.32 1.732-1 10 17.32zM71 80h-2V60h2v20zm3.134.84l1.732 1-10 17.32-1.732-1 10-17.32zm24.026 3.294l1 1.732-17.32 10-1-1.732 17.32-10zM120 89v2h-20v-2h20zm-84.134 9.16l-1.732 1-10-17.32 1.732-1 10 17.32zM51 100h-2V80h2v20zm3.134.84l1.732 1-10 17.32-1.732-1 10-17.32zm24.026 3.294l1 1.732-17.32 10-1-1.732 17.32-10zM100 109v2H80v-2h20zm19.32 5l-1 1.732-17.32-10 1-1.732 17.32 10zM31 120h-2v-20h2v20z' fill='%239C92AC' fill-opacity='0.27' fill-rule='evenodd'/%3E%3C/svg%3E");
+    font-family: 'Montserrat', sans-serif;
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.container{
+    border:1px solid grey;
+    width:auto;
+    max-width:80vh;
+    background-color: rgba(236, 231, 231, 0.5);
+    box-shadow: 0px 10px 10px 5px rgba(0,0,0, 0.3);
+    height:auto;
+    padding:30px;
+}
+.text{
+    font-size:1.8rem;
+    font-weight:bold;
+    padding:10px;
+}
+.quote-author{
+    padding-top:10px;
+    font-style: italic;
+    font-size: 1.5rem;
+}
+.btnContainer{
+padding-top:30px;
+}
+#btn{
+    padding:12px;
+    background-color: #203d51;
+    border:none;
+    border-radius:5px;
+    color:#fff;
+    font-size:15px;
+    box-shadow: 0 5px rgba(41, 67, 88, 0.3);
+}
+ 
+#btn:hover{
+    filter:brightness(150%);
+}
+#btn:active{
+    transform:translate(0, 0.5rem);
+    box-shadow: 0 0.2rem rgba(206, 206, 204, 0.65);
+}
+.toolongQuote{
+font-size: 1rem;
+}
+
+/* Mobile users */
+@media screen and (max-width:1000px){
+    .container{
+        margin: auto 10px;
+    }
+    .text{
+       font-size:1.5rem;
+    }
+    .quote-author{
+        font-size:1.2rem; 
+    }
+}
